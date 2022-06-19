@@ -6,10 +6,16 @@ This code skeleton has all the required folders for your HTML templates, your CS
 # How do I use it?
 You can just pull the repository, and start building on it.
 
-Here's where your files should go:
+## Where should I add my files?
 
 - HTML documents: `app/templates`
 - CSS stylesheets: `app/static/styles`
-- assets (images, videos, sounds, etc): `app/static/assets`
+- assets (images, videos, sounds, etc): `app/static/assets` (you'll need to create that folder)
 - environment, Procfile, requirements: at the root `/`
-- routing file(s): `app/` 
+
+## What files should I update?
+
+- routes: `app/routes.py`
+- models: `app/models.py`
+
+
